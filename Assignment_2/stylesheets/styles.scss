@@ -227,4 +227,58 @@ Main Section Styles
     border-radius: 5px;
 }
 
-  
+.what-we-do-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    background: url('../assets/backgrounds/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact-us-heading {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.contact-us-name-email-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-us-name-email-area input {
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    background: transparent;
+    border: 2.5px solid #ffffff;
+    border-radius: 3px;
+}
+
+.contact-us-name-email-area input::placeholder, 
+.contact-us-message-area textarea::placeholder {
+    color: #ffffff;
+    font-style: italic;
+}
+
+.contact-us-message-area textarea {
+    width: 700px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: transparent;
+    border: 2.5px solid #ffffff;
+    border-radius: 3px;
+    margin-top: 30px;
+}
