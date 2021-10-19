@@ -150,6 +150,50 @@ Main Section Styles
     color: #ffffff;
 }
 
+.what-we-do-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-we-do-section-heading h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.what-we-do-description-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.what-we-do-description-section img {
+    width: 50px;
+}
+
+.what-we-do-description-section h3 {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.what-we-do-description-section p {
+    font-size: 12px;
+}
+
+.what-we-do-design,
+.what-we-do-development,
+.what-we-do-product-management {
+    padding: 5px;
+    margin: 10px;
+}
+
+
 
 
 
