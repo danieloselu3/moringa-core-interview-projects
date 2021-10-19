@@ -67,6 +67,9 @@ Grid
 body {
   font-family: 'Roboto', sans-serif; }
 
+p {
+  line-height: 1rem; }
+
 /*
 ===================================
 Header styles
@@ -163,12 +166,37 @@ Main Section Styles
   margin-bottom: 20px; }
 
 .what-we-do-description-section p {
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 1rem; }
 
 .what-we-do-design,
 .what-we-do-development,
 .what-we-do-product-management {
   padding: 5px;
   margin: 10px; }
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column; }
+
+.portfolio-section-heading {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px; }
+
+.portfolio-pics {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.portfolio-pics-part1, .portfolio-pics-part2 {
+  display: flex;
+  flex-direction: row; }
+
+.portfolio-pic img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

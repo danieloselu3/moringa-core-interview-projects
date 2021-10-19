@@ -69,6 +69,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    line-height: 1rem;
+}
+
 /*
 ===================================
 Header styles
@@ -184,6 +188,7 @@ Main Section Styles
 
 .what-we-do-description-section p {
     font-size: 12px;
+    line-height: 1rem;
 }
 
 .what-we-do-design,
@@ -193,8 +198,33 @@ Main Section Styles
     margin: 10px;
 }
 
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+}
 
+.portfolio-section-heading {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
+.portfolio-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.portfolio-pics-part1, .portfolio-pics-part2{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-pic img{
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
 
   
