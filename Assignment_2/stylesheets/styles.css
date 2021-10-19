@@ -57,4 +57,49 @@ Grid
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.container {
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  width: 100%; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+/*
+===================================
+Header styles
+===================================
+*/
+.primary-header-section {
+  height: 700px;
+  background: url("../assets/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+#logo {
+  padding-top: 180px;
+  margin-bottom: 20px; }
+
+#logo img {
+  width: 50px; }
+
+.primary-header-introduction {
+  color: #ffffff; }
+
+.primary-header-introduction h1 {
+  font-size: 44px;
+  padding: 20px;
+  line-height: 1.25em; }
+
+.primary-header-introduction h2 {
+  font-size: 15px;
+  padding: 20px;
+  margin-top: 30px; }
+
+.primary-header-mouse-click {
+  padding: 20px;
+  margin-top: 80px; }
+
 /*# sourceMappingURL=styles.css.map */
